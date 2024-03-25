@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/NavBar';
 import Count from './Components/Counter/Counter';
 import Card from './Components/Card/Card';
 import BgColor from './Components/BgColor/BgColor';
+import passwordGenerator from './Components/passwordGenerator/passwordGenarator'
 import InterestCalculator from './Components/SimpleInterestCalculator/InterestCalculator';
 function App() {
  
@@ -18,10 +19,14 @@ function App() {
     </div>
  
       <BgColor/>
+     
+      
  
     </div>
     <InterestCalculator/> 
-  
+   <div>
+      <passwordGenerator/>
+      </div>
     </div>
 
  
